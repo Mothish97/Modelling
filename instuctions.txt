@@ -1,0 +1,22 @@
+Instructions on how to run the ROS package
+
+1. Copy the ROS packages - paintbot_29 - to your catkin_workspace/src
+
+2. in the terminal and run -
+
+catkin_make
+
+source /catkin_workspace/devel/setup.bash
+
+3. For full configuration of the robot, launch Gazebo using the following command -
+
+roslaunch paintbot_29 gazebo.launch
+
+4. Run the scripts using the following respective commands in different terminals -
+
+rosrun paintbot_29 paintbot_publsiher.py
+
+
+Please reach out to us if you face any issues building/running the package.
+Mothish Raj - mr2997.umd.edu
+Jai Sharma - jaisharm@umd.edu
